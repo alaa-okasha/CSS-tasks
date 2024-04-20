@@ -1,0 +1,6 @@
+div {
+    text-transform: capitalize;
+    text-shadow: 0.5px 0.5px 0px orange,1px 1px 0px blue,1.5px 1.5px 0px violet;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
