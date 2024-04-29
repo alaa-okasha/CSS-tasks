@@ -1,0 +1,33 @@
+.main {
+    width: 400px;
+    margin: auto;
+}
+.one {
+    background-color: #eee;
+    list-style-type: none;
+    list-style-position: inside;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.two {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    list-style-position: outside;
+    margin-left: -5px;
+}
+.three {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    list-style-position: outside;
+    margin-left: -5px;
+    list-style-type: upper-roman;
+}
+.four {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    list-style-position: inside;
+    margin-left: -30px;
+}
