@@ -1,0 +1,24 @@
+div {
+    background-color: #eee;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    padding: 20px 5px;
+    font-size: larger;
+    
+}
+div::before{
+    content: "1";
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    left: 109px;
+    top: 18px;
+
+
+    
+    
+
+}

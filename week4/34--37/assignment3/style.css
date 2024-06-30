@@ -1,0 +1,46 @@
+p {
+    background-color: #eee;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    border-left: 3px solid red;
+}
+.one::before{
+    content: attr(data-person);
+    background-color: #eee;
+    padding: 10px;
+    margin: 0px;
+    position: absolute;
+    left: 255px;
+    top: 20px;
+
+}
+.two::before{
+    content: attr(data-person);
+    background-color: #eee;
+    padding: 10px;
+    margin: 0px;
+    position: absolute;
+    left: 255px;
+    top: 78px;
+
+}
+.three::before{
+    content: attr(data-person);
+    background-color: #eee;
+    padding: 10px;
+    margin: 0px;
+    position: absolute;
+    left: 255px;
+    top: 137px;
+
+}
+p::after{
+    content: "";
+    position: absolute;
+    left: 343px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent red transparent transparent;
+}
